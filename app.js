@@ -5,7 +5,7 @@ var vhost = require('vhost');
 
 var dumpsterApp = require('../dumpster/app.js');
 var personalSite = require('../personalSite/app.js');
-var mygame = require('../mygame/app.js');
+var mygame = require('../my-game/app.js');
 var ipg = require('../indyPulltabGaming/app.js');
 
 var vhoster = express();
