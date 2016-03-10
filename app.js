@@ -11,9 +11,17 @@ var ipg = require('../indyPulltabGaming/app.js');
 var vhoster = express();
 
 vhoster.use(vhost('the-dumpster.com', dumpsterApp));
+vhoster.use(vhost('www.the-dumpster.com', dumpsterApp));
+
 vhoster.use(vhost('rileyatodd.com', personalSite));
+vhoster.use(vhost('www.rileyatodd.com', personalSite));
+
 vhoster.use(vhost('minimagic.com', mygame));
+vhoster.use(vhost('www.minimagic.com', mygame));
+
 vhoster.use(vhost('indianapulltabs.com', ipg));
+vhoster.use(vhost('www.indianapulltabs.com', ipg));
+
 
 // catch 404 and forward to error handler
 vhoster.use(function(req, res, next) {
