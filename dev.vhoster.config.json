@@ -1,0 +1,11 @@
+{
+  "vhosts": {
+    "dev.the-dumpster.com": "../dumpster/app.js",
+
+    "dev.rileyatodd.com": "../personalSite/app.js",
+
+    "dev.minimagic.com": "../my-game/app.js",
+
+    "dev.indianapulltabs.com": "../indyPulltabGaming/app.js"
+  }
+}

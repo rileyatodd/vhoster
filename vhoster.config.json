@@ -1,0 +1,18 @@
+{
+  "vhosts": {
+
+    "dev.rileyatodd.com": "../power-rankings/app.js",
+
+    "the-dumpster.com": "../dumpster/app.js",
+    "www.the-dumpster.com": "../dumpster/app.js",
+
+    "rileyatodd.com": "../personalSite/app.js",
+    "www.rileyatodd.com": "../personalSite/app.js",
+
+    "minimagic.com": "../my-game/app.js",
+    "www.minimagic.com": "../my-game/app.js",
+
+    "indianapulltabs.com": "../indyPulltabGaming/app.js",
+    "www.indianapulltabs.com": "../indyPulltabGaming/app.js"
+  }
+}
